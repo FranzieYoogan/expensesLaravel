@@ -22,4 +22,4 @@ Route::get('/no', function () {
     return view('no');
 });
 
-Route::post('/no', [Controller::class, 'signUp'])
+Route::post('/no', [Controller::class, 'signUp']);

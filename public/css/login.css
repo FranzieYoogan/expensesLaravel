@@ -16,5 +16,21 @@
 .btnLoginStyle {
 
     width: 50%;
+    background-color: transparent !important;
+    border: 2px solid black !important;
+    transition: 0.5s !important;
+}
+
+.btnLoginStyle:hover {
+
+    width: 50%;
+    background-color: transparent !important;
+    background-color:  brown !important;
+    font-weight: 900 !important;
+}
+
+body {
+
+    background-color: burlywood !important;
 
 }
