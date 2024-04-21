@@ -1,0 +1,13 @@
+.navbar {
+
+    border-bottom: 4px solid rgb(201, 133, 45) ;
+    background-color: brown !important;
+    font-weight: 900;
+
+}
+
+.navbar-brand {
+
+    color: burlywood !important;
+    text-shadow: 1px 1px 1px black;
+}
