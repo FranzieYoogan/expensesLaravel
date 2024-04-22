@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 2em;
 
 }
 
@@ -17,7 +18,7 @@ body {
     margin-left: 0.5em;
     font-weight: 900;
     text-shadow: 5px 5px 5px black;
-
+    margin-top: 0.5em;
 
 }
 
@@ -46,7 +47,7 @@ body {
     border: none !important;
     transition: 0.3s !important;
     font-weight: 900 !important;
-    margin-top: 0.6em;
+    margin-left: 0.2em !important;
 }
 
 
@@ -66,6 +67,7 @@ body {
     border-radius: 40px;
  box-shadow: 0px 0px 4px 0px black;
  transition: 1s !important;
+ margin-bottom: 3px;
 }
 
 .moneyIcon:hover {

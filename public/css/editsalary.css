@@ -8,6 +8,7 @@ body {
 .userStyle {
     color: white;
     margin-left: 0.5em;
+    margin-top: 0.5em;
     font-weight: 900;
     text-shadow: 5px 5px 5px black;
     width: 100% !important;
@@ -40,7 +41,7 @@ body {
 
     display: flex;
     justify-content: center;
-
+    margin-top: 2em;
 }
 
 .containerItems {
@@ -48,6 +49,27 @@ body {
     width: 30% !important;
 
 }
+
+.inputStyle {
+
+    border: 2px solid black !important;
+
+}
+
+.inputStyle:hover, .inputStyle:active, .inputStyle:focus {
+
+  box-shadow: 0px 0px 4px 2px brown !important;
+
+}
+
+.input-group-text {
+
+    background-color: transparent !important;
+    border: 2px solid black !important;
+    color: white !important;
+
+}
+
 
 @media only screen and (width: 554px) {
 
@@ -82,6 +104,7 @@ body {
     border: 1px solid black !important;
     transition: 0.3s !important;
     font-weight: 900 !important;
+    margin-left: 1em !important;
 }
 
 

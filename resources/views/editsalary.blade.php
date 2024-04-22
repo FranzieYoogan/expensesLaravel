@@ -23,7 +23,7 @@
 
         <div class="containerItems input-group input-group-sm mb-3">
             <span class="input-group-text" id="inputGroup-sizing-sm">Your Salary</span>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            <input type="number" class="inputStyle form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
             <button  class="btnEditSalary btn btn-primary">ENTER VALUE</button>
           </div>
     </section>

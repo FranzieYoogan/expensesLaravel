@@ -21,7 +21,7 @@
     <section class="moneyEdit">
      
 
-    <h1 class="userStyle">{{session()->get('sessionName')}} - </h1>  @if(isset($salaryUser))  @else <h1 class="userStyle">0,00</h1> @endif <a type="submit" href="/editsalary" class="btnMoney"><img class="moneyIcon" src="{{asset('/img/icons/money.png')}}"  alt=""></a>
+    <h1 class="userStyle">{{session()->get('sessionName')}} -  @if(isset($salaryUser))  @else 0,00 @endif <a type="submit" href="/editsalary" class="btnMoney"><img class="moneyIcon" src="{{asset('/img/icons/money.png')}}"  alt=""></a> </h1> 
 
 </section>
         <section class="containerAll">
