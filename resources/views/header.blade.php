@@ -23,7 +23,7 @@
           </a>
 
           <a class="navbar-brand" href="/logout">
-            <img  src="{{asset('/img/icons/logout.png')}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            <img class="logoutIcon"  src="{{asset('/img/icons/logout.png')}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
            
           </a>
 

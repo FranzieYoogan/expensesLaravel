@@ -3,3 +3,45 @@ body {
     background-color: burlywood !important;
 
 }
+
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.userStyle {
+    color: white;
+    margin-left: 0.5em;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px black;
+
+
+}
+
+.btnCategories {
+
+    width: 100%;
+    background-color: transparent !important;
+    border: 1px solid black !important;
+    transition: 0.3s !important;
+    margin-top: 1em;
+    font-weight: 900 !important;
+}
+
+.btnCategories:hover {
+
+
+    background-color: brown !important;
+    border: 1px solid black !important;
+    font-weight: 900 !important;
+}
+
+.containerItems {
+
+    display: flex;
+    gap: 1em;
+  
+}

@@ -18,7 +18,22 @@
 
     @if(session()->has('sessionName')) 
 
-    <h1>{{session()->get('sessionName')}}</h1>
+    <h1 class="userStyle">{{session()->get('sessionName')}}</h1>
+
+        <section class="containerAll">
+
+
+            <div class="containerItems">
+
+                <a href="/food" class="btnCategories btn btn-primary">FOOD</a>
+                <a href="/food" class="btnCategories btn btn-primary">HOUSE</a>
+                <a href="/food" class="btnCategories btn btn-primary">BILLS</a>
+                <a href="/food" class="btnCategories btn btn-primary">REMEDIES</a>
+
+            </div>
+        
+
+        </section>
 
     @endif
     

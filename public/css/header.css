@@ -11,3 +11,16 @@
     color: burlywood !important;
     text-shadow: 1px 1px 1px black;
 }
+
+
+.logoutIcon {
+
+    transition: 1s;
+
+}
+
+.logoutIcon:hover {
+
+    transform: scale(1.2);
+
+}
