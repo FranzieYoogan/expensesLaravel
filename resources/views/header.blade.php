@@ -15,10 +15,28 @@
 
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
+
+            @if(session()->has('sessionName')) 
+          <a class="navbar-brand" href="/app">
+            <img src="{{asset('/img/icons/navicon.png')}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Expenses Calculous
+          </a>
+
+          <a class="navbar-brand" href="/logout">
+            <img  src="{{asset('/img/icons/logout.png')}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+           
+          </a>
+
+          @else
+          
           <a class="navbar-brand" href="/">
             <img src="{{asset('/img/icons/navicon.png')}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             Expenses Calculous
           </a>
+
+          
+
+          @endif
         </div>
       </nav>
     

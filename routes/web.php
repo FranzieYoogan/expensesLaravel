@@ -22,4 +22,19 @@ Route::get('/no', function () {
     return view('no');
 });
 
+Route::get('/accounts', function () {
+    return view('accounts');
+});
+
+Route::get('/app', function () {
+    return view('app');
+});
+
+
 Route::post('/no', [Controller::class, 'signUp']);
+
+Route::get('/logout', [Controller::class, 'logOut']);
+
+Route::get('/accounts', [Controller::class, 'showAll']);
+
+Route::post('/app', [Controller::class, 'signUp']);

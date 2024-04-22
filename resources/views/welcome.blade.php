@@ -29,7 +29,7 @@
                 <h1>Do you have an account ?</h1>
 
                 <div style="display: flex; gap: 1em">
-                    <a type="button" class="btnLoginStyle btn btn-secondary">SIM</a>
+                    <a type="button" href="/accounts" class="btnLoginStyle btn btn-secondary">SIM</a>
                     <a type="button" href="/no" class="btnLoginStyle btn btn-secondary">NÂO</a>
                 </div>
 
