@@ -19,7 +19,7 @@
     <section class="containerAllNo">
 
 
-    <form method="POST" action="/app" class="containerItemsNo">
+    <form method="POST" action="/no" class="containerItemsNo">
         @csrf 
 
         <div class="mb-3">

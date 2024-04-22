@@ -41,4 +41,27 @@ class Controller extends BaseController
        return view('accounts', ['names' => $names]);
     }
 
+    public function login(Request $request) {
+
+        $name = $request->get('select');
+
+        if(isset($_POST['submitAccount'])) {
+
+            if (DB::select("select user_name from user_expenses where user_name = '$name' ")) {
+
+                session(['sessionName' => $name]);
+                $sessionName = session('sessionName',$name);
+
+                return view('app', ['sessionName' => $sessionName]);
+
+            }
+
+        }
+
+
+
+
+
+    }
+
 }

@@ -17,8 +17,11 @@
 
         @if (isset($names))
             
-        
-        <select class="form-select" aria-label="Default select example">
+        <form action="/app" method="POST">
+            @csrf
+           
+
+        <select class="form-select" name="select" aria-label="Default select example">
 
             <option selected>Select your account</option>
 
@@ -28,8 +31,13 @@
 
             @endforeach
            
-            
+  
           </select>
+          <button type="submit" name="submitAccount" class="btnAccounts btn btn-primary">Sign In</button>
+
+        </form>
+
+
           @endif
     </section>
 

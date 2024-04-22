@@ -37,4 +37,7 @@ Route::get('/logout', [Controller::class, 'logOut']);
 
 Route::get('/accounts', [Controller::class, 'showAll']);
 
-Route::post('/app', [Controller::class, 'signUp']);
+Route::post('/accounts', [Controller::class, 'login']);
+
+Route::post('/app', [Controller::class, 'login']);
+
