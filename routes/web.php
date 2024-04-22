@@ -31,6 +31,11 @@ Route::get('/app', function () {
 });
 
 
+Route::get('/editsalary', function () {
+    return view('editsalary');
+});
+
+
 Route::post('/no', [Controller::class, 'signUp']);
 
 Route::get('/logout', [Controller::class, 'logOut']);
@@ -41,5 +46,5 @@ Route::post('/accounts', [Controller::class, 'login']);
 
 Route::post('/app', [Controller::class, 'login']);
 
-Route::post('/app', [Controller::class, 'showEdit']);
+Route::post('/editsalary', [Controller::class, 'showEdit']);
 

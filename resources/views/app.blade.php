@@ -18,12 +18,12 @@
 
     @if(session()->has('sessionName')) 
 
-    <form action="/app" method="POST" class="moneyEdit">
-        @csrf
+    <section class="moneyEdit">
+     
 
-    <h1 class="userStyle">{{session()->get('sessionName')}} - </h1>  @if(isset($salaryUser))  @else <h1 class="userStyle">0,00</h1> @endif <button type="submit" name="submitEdit" class="btnMoney"><img class="moneyIcon" src="{{asset('/img/icons/money.png')}}"  alt=""></button>
+    <h1 class="userStyle">{{session()->get('sessionName')}} - </h1>  @if(isset($salaryUser))  @else <h1 class="userStyle">0,00</h1> @endif <a type="submit" href="/editsalary" class="btnMoney"><img class="moneyIcon" src="{{asset('/img/icons/money.png')}}"  alt=""></a>
 
-</form>
+</section>
         <section class="containerAll">
 
 

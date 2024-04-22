@@ -71,18 +71,7 @@ class Controller extends BaseController
 
     public function showEdit() {
 
-        if(isset($_POST['submitEdit'])) {
-
-            $showEdit = true;
-
-            return view('app', ['showEdit' => $showEdit]);
-
-
-        } else {
-
-            return view('app');
-
-        }
+      
 
 
     }
