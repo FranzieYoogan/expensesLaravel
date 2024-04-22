@@ -47,12 +47,17 @@ class Controller extends BaseController
 
         if(isset($_POST['submitAccount'])) {
 
-            if (DB::select("select user_name from user_expenses where user_name = '$name' ")) {
+            if ($data =DB::select("select * from user_expenses where user_name = '$name' ")) {
+
+                    foreach($data as $dataSalary) {
+
+                        $salaryUser = $dataSalary->user_salary;
+                    }
 
                 session(['sessionName' => $name]);
                 $sessionName = session('sessionName',$name);
 
-                return view('app', ['sessionName' => $sessionName]);
+                return view('app', ['sessionName' => $sessionName,'salaryUser' => $salaryUser]);
 
             }
 
@@ -60,6 +65,24 @@ class Controller extends BaseController
 
 
 
+
+
+    }
+
+    public function showEdit() {
+
+        if(isset($_POST['submitEdit'])) {
+
+            $showEdit = true;
+
+            return view('app', ['showEdit' => $showEdit]);
+
+
+        } else {
+
+            return view('app');
+
+        }
 
 
     }

@@ -41,3 +41,5 @@ Route::post('/accounts', [Controller::class, 'login']);
 
 Route::post('/app', [Controller::class, 'login']);
 
+Route::post('/app', [Controller::class, 'showEdit']);
+
