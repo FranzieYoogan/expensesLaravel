@@ -27,8 +27,8 @@ body {
     background-color: transparent !important;
     border: 1px solid black !important;
     transition: 0.3s !important;
-    margin-top: 1em;
-    font-weight: 900 !important;
+
+
 }
 
 .btnCategories:hover {
@@ -39,9 +39,46 @@ body {
     font-weight: 900 !important;
 }
 
+.btnMoney {
+
+
+    background-color: transparent !important;
+    border: none !important;
+    transition: 0.3s !important;
+    font-weight: 900 !important;
+
+}
+
+
+
 .containerItems {
 
     display: flex;
     gap: 1em;
   
+}
+
+.moneyIcon {
+
+    width: 35px !important;
+
+    width: 50px;
+    border-radius: 40px;
+ box-shadow: 0px 0px 4px 0px black;
+ transition: 1s !important;
+}
+
+.moneyIcon:hover {
+
+
+    background-color: brown !important;
+   
+    font-weight: 900 !important;
+    rotate: 15deg;
+}
+
+.moneyEdit {
+
+    display: flex;
+    gap: 1em;
 }
