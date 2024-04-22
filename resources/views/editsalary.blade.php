@@ -17,7 +17,17 @@
 
     @include('header')
 
-    <h1>edit</h1>
+    <h1 class="userStyle">{{session()->get('sessionName')}} - @if(isset($salaryUser))  @else 0,00   @endif <a href="/editsalary"> <img class="moneyIcon" src="{{asset('/img/icons/money.png')}}" alt=""></a> </h1>
+
+    <section class="containerAll">
+
+        <div class="containerItems input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Your Salary</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            <button  class="btnEditSalary btn btn-primary">ENTER VALUE</button>
+          </div>
+    </section>
+  
     
 </body>
 </html>

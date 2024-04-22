@@ -3,3 +3,85 @@ body {
     background-color: burlywood !important;
 
 }
+
+
+.userStyle {
+    color: white;
+    margin-left: 0.5em;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px black;
+    width: 100% !important;
+
+}
+
+.moneyIcon {
+
+    width: 35px !important;
+
+    width: 50px;
+    border-radius: 40px;
+ box-shadow: 0px 0px 4px 0px black;
+ transition: 1s !important;
+ margin-bottom: 3px;
+ margin-left: 0.2em;
+}
+
+.moneyIcon:hover {
+
+
+    background-color: brown !important;
+   
+    font-weight: 900 !important;
+    rotate: 15deg;
+}
+
+
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerItems {
+
+    width: 30% !important;
+
+}
+
+@media only screen and (width: 554px) {
+
+    .containerItems {
+
+        width: 70% !important;
+    
+    }
+  }
+
+  @media only screen and (width: 400px) {
+
+    .containerItems {
+
+        width: 90% !important;
+    
+    }
+  }
+
+.btnEditSalary:hover {
+
+
+    background-color: brown !important;
+    border: 1px solid black !important;
+    font-weight: 900 !important;
+}
+
+.btnEditSalary {
+
+
+    background-color: transparent !important;
+    border: 1px solid black !important;
+    transition: 0.3s !important;
+    font-weight: 900 !important;
+}
+
+
